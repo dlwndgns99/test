@@ -1,6 +1,6 @@
 <script>
 export default {
-  async setup() {
+  async setup(test) {
     const { data: trainers } = await useTrainers();
     return {
       trainers,
